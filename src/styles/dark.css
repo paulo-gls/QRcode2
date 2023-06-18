@@ -1,0 +1,26 @@
+body {
+    background-color: hsl(212, 45%, 89%); /* cor de fundo no modo claro */
+    color: #000; /* cor do texto no modo claro */
+}
+
+.dark-mode {
+    background-color: #000000; /* cor de fundo no modo escuro */
+    color: #fff; /* cor do texto no modo escuro */
+}
+
+#toggle-mode{
+margin: 10px auto 0;
+display: block;
+padding: 5px 5px;
+transition: 0.3s ease-in-out;
+border-radius: 7px;
+border: solid 3px #3685FF;
+}
+
+#toggle-mode:hover{
+    transform: scale(1.1);
+}
+
+.qr-card{
+    box-shadow: none;
+}
